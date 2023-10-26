@@ -2,5 +2,6 @@
 export enum Collection {
   USUARIOS = "usuarios",
   CATEGORIAS = "categorias",
-  PRODUCTOS = "productos"
+  PRODUCTOS = "productos",
+  VENTAS = "ventas"
 }
