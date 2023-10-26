@@ -4,7 +4,6 @@ import { Venta } from "./venta";
 export const EsquemaVentaMongo = new Schema<Venta>(
   {
     uuid: { type: String, required: true, unique: true },
-
     fecha_venta: { type: Date },
     total_venta: { type: Number },
     numero_factura: { type: Number },
