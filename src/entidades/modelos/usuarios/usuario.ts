@@ -8,4 +8,4 @@ export interface Usuario {
 }
 
 export type OmitirUuidUsuario = Omit<Usuario, "uuid">;
-export type UsuarioParcial = Partial<Usuario>;
+export type UsuarioPartial = Partial<Usuario>;
