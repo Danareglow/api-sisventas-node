@@ -9,5 +9,5 @@ export const actualizarUsuario = async (data: UsuarioPartial): Promise<Usuario |
     }
     const UsuarioActualizado = { ... data};
     await usuario.updateOne(UsuarioActualizado);
-return {...usuario.doc};
+    return {...usuario.doc};
 };
