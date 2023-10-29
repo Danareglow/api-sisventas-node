@@ -1,9 +1,10 @@
 // Importamos las bibliotecas y módulos necesarios de Fastify y rutas relacionadas.
 import { FastifyInstance, RouteOptions } from "fastify";
 import { RutasUsuario } from "./usuario";
+import { RutasProducto } from "./producto";
 
 // Combinamos todas las rutas en un arreglo.
-const routes: RouteOptions[] = [...RutasUsuario];
+const routes: RouteOptions[] = [...RutasUsuario, ...RutasProducto];
 
 // Definimos una función para registrar las rutas en una instancia de Fastify.
 export const registerRoutes = (fastify: FastifyInstance) => {

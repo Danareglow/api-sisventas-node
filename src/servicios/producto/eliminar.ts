@@ -7,6 +7,6 @@ export const eliminarProducto = async(uuid: String): Promise<Boolean | Error> =>
     if(!producto){
         return new Error("El producto no se encontro");
     }
-    await producto.remove();
+    await producto.deleteOne();
     return true;
 };

@@ -1,7 +1,7 @@
 import { RouteOptions } from "fastify";
 import { MetodosPeticion } from "../../constants-definitions";
 import { OmitirUuidUsuario } from "../../entidades";
-import { RegistrarUsuario } from "../../servicios/usuarios/registrar";
+import { RegistrarUsuario } from "../../servicios/usuario/registrar";
 
 export const CrearUsuarioRuta: RouteOptions = {
   method: MetodosPeticion.POST,
