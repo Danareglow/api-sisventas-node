@@ -7,6 +7,6 @@ export const eliminarCategoria = async(uuid: String):Promise<Boolean | Error> =>
     if(!categoria){
         return new Error("la categoria no se encontro")
     }
-    await categoria.remove();
+    await categoria.deleteOne();
     return true;
 }

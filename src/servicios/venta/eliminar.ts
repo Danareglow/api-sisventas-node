@@ -7,6 +7,6 @@ export const eliminarVenta = async (numero_factura: number): Promise<Boolean | E
   if (!venta) {
     return new Error("la venta no se encontro");
   }
-  await venta.remove();
+  await venta.deleteOne();
   return true;
 };
