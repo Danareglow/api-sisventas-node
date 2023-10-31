@@ -7,7 +7,7 @@ interface Parametros {
 }
 export const EliminarVentaRuta: RouteOptions = {
   method: MetodosPeticion.DELETE,
-  url: "/venta/:numero_factura",
+  url: "/ventas/:numero_factura",
   handler: async (request, reply) => {
     const { params } = request;
     const { numero_factura } = params as Parametros;
