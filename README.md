@@ -8,6 +8,13 @@
 
 Se desarrollará un sistema que permitirá comprar productos, el cual estará ligado a un stock. Se podrá hacer seguimiento a la compra de dicho producto, el cual tendrá un número de factura unido a la compra, la cual puede tener uno o varios productos.
 
+## Requisitos
+
+Para usar este proyecto, necesitas tener instalado Node.js en tu PC. Además, se recomienda usar PNPM como administrador de paquetes, ya que fue con el que se trabajó en el proyecto. Puedes instalar PNPM globalmente en tu PC utilizando el siguiente comando:
+```bash 
+npm install -g pnpm
+```
+
 
 ## Cómo Empezar
 
