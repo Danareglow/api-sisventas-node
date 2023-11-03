@@ -15,7 +15,7 @@ Sigue estos pasos para comenzar con el proyecto:
 
 1. Clona este repositorio.
 2. Instala las dependencias del proyecto con el siguiente comando `pnpm install`: 
-4. 
+4. Crea en la raiz del proyecto el archivo .env con las variables requeridas, si no sabes cuales son en el archivo .env.example del proyecto encuentras los nombres
    
 
 
